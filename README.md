@@ -21,6 +21,8 @@ In this particular example I was able to experiment with:
 
 I tried to avoid media queries as much as I could, you can see the ones I use make little adjustments to a couple of texts and grid elements.
 
-**Feel free to play around it with your browser's dev tools**
+**Feel free to play around with it**
 
-Checkout my other repositories for more examples.
+Don't forget to checkout my other repositories for more examples.
+
+### Thank you!
