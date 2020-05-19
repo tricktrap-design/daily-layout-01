@@ -294,9 +294,9 @@ body {
   max-height: 100vh;
   display: grid;
   grid-template-rows: min-content auto min-content min-content auto auto minmax(auto, 150px);
-  grid-template-columns: minmax(120px, min-content) min-content auto min-content;
+  grid-template-columns: minmax(100px, min-content) min-content minmax(auto, 1fr) min-content;
 }
-@media (max-width: 320px) {
+@media (max-width: 330px) {
   .grid-container {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -308,10 +308,16 @@ body {
   font-size: 25rem;
   color: #77807D;
   background-color: black;
+  transition: all 0.2s ease-in-out;
 }
 @media (min-width: 571px) and (max-width: 1000px), (min-width: 1001px) {
   .museum-wrapper {
     font-size: 49rem;
+  }
+}
+@media (max-width: 330px) {
+  .museum-wrapper {
+    font-size: 10rem;
   }
 }
 
@@ -339,6 +345,7 @@ body {
 
 .beige {
   background-color: #EBDFC7;
+  min-height: 80px;
 }
 
 .black {
@@ -387,16 +394,16 @@ body {
 }
 
 .title {
-  font-size: clamp(50rem, 10vw, 115rem);
+  font-size: clamp(50rem, 14vw, 115rem);
   color: #EBDFC7;
   background: black;
   overflow: hidden;
-  line-height: 40rem;
+  line-height: 50rem;
   height: min-content;
 }
 @media (min-width: 571px) and (max-width: 1000px), (min-width: 1001px) {
   .title {
-    line-height: 8vh;
+    line-height: 10vh;
   }
 }
 
@@ -427,7 +434,7 @@ body {
 }
 
 .tagline__text {
-  font-size: clamp(16rem, 5vw, 33rem);
+  font-size: clamp(16rem, 4vw, 33rem);
 }
 
 .date {
@@ -477,7 +484,7 @@ body {
 }
 @media (min-width: 1001px) {
   .extra__text {
-    font-size: 0.4vw;
+    font-size: 0.4vh;
   }
 }
 
