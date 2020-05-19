@@ -16,10 +16,10 @@ In this particular example I was able to experiment with:
 
 ![Original art](examples/Original.png)
 
-### The web version, flexible and responsive
+### The web version, flexible and responsive:
 ![Flexibility](examples/labs-daily-layout-01.gif)
 
-I tried to avoid media queries as much as I could, you could see the ones I used adjust just a couple of texts and grid elements.
+I tried to avoid media queries as much as I could, you can see the ones I use make little adjustments to a couple of texts and grid elements.
 
 **Feel free to play around it with your browser's dev tools**
 
