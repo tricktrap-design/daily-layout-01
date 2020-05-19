@@ -254,7 +254,7 @@ body {
 
 @font-face {
   font-family: "Gudea-Bold";
-  src: url("../../fonts/Gudea-Bold.ttf.woff") format("woff"), url("../../fonts/Gudea-Bold.ttf.svg#Gudea-Bold") format("svg"), url("../../fonts/Gudea-Bold.ttf.eot"), url("../../fonts/Gudea-Bold.eot?#iefix") format("embedded-opentype");
+  src: url("https://tricktrap.mx/labs/daily-layout-01/fonts/Gudea-Bold.ttf.woff") format("woff"), url("https://tricktrap.mx/labs/daily-layout-01/fonts/Gudea-Bold.ttf.svg#Gudea-Bold") format("svg"), url("https://tricktrap.mx/labs/daily-layout-01/fonts/Gudea-Bold.ttf.eot"), url("https://tricktrap.mx/labs/daily-layout-01/fonts/Gudea-Bold.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -387,7 +387,7 @@ body {
 .orange-g {
   grid-row: 2/4;
   background: #DD3822;
-  background-image: url(/img/letter-g.svg);
+  background-image: url(https://tricktrap.mx/labs/daily-layout-01/img/letter-g.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
